@@ -55,7 +55,7 @@ You need Git installed to clone the repository. To run the scripts in this repos
 3. Run the Python script:
 
     ```
-    python Exercise1.1.py
+    python Exercise1.01.py
     ```
 
 Each script is self-contained and should run independently. Follow the comments and code within each script for specific instructions and explanations.
