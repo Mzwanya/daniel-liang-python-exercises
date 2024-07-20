@@ -23,15 +23,15 @@ This repository aims to compile solutions for the exercises in Y. Daniel Liang's
 
 The repository is organized by chapters, with each chapter containing subdirectories for the exercises. The structure is as follows:
 
-├── Chapter1
-│   ├── Exercise1.1.py
-│   ├── Exercise1.2.py
-│   └── ...
-├── Chapter2
-│   ├── Exercise2.1.py
-│   ├── Exercise2.2.py
-│   └── ...
-└── ...
+    ├── Chapter1
+    │   ├── Exercise1.1.py
+    │   ├── Exercise1.2.py
+    │   └── ...
+    ├── Chapter2
+    │   ├── Exercise2.1.py
+    │   ├── Exercise2.2.py
+    │   └── ...
+    └── ...
 
 
 ## Requirements
