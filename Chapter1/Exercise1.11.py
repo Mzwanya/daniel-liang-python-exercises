@@ -1,6 +1,6 @@
 # A program to estimate Population projection in a five year period
 
-# TO BE DONE LATER. SEARCH TO FIND THE ARITHMETIC FORMULA FOR SIMPLIFY THE PROBLEM (Check Section2.11_2.22.py file)
+# TO BE RECHECKED
 
 current_population = 312032486
 one_birth_per_seconds = 7

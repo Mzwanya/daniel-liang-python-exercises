@@ -3,7 +3,7 @@
 number of years and displays the population after that many years.
 '''
 
-# TO BE DONE LATER. FIND THE  BASIC ARITHMETIC FORMULA TO SIMPLIFY THE PROBLEM
+# TO BE DONE LATER
 
 
 
