@@ -85,7 +85,7 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 
 - Thanks to [Y. Daniel Liang](https://yongdanielliang.github.io/) for the excellent book.
 
-## Disclaimer ⚠️
+## ⚠️ Disclaimer
 
 
 - The solutions provided in this repository are attempted answers to the exercises in Y. Daniel Liang's "Introduction to Programming Using Python". They are not official solutions and may not be perfect or optimal. These solutions are meant for reference and learning purposes only. Users are encouraged to attempt the exercises on their own before consulting these solutions. If you find any errors or have suggestions for improvement, please open an issue or submit a pull request.
