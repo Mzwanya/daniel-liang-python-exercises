@@ -1,0 +1,97 @@
+
+```markdown
+# Daniel Liang's Python Exercise Solutions
+
+This repository contains Python scripts with attempted solutions to the exercises from the book **"Introduction to Programming Using Python"** by **Y. Daniel Liang**. The purpose of this repository is to provide a reference and learning resource for those studying the book and practicing Python programming.
+
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Structure](#structure)
+- [Requirements](#requirements)
+- [How to Use](#how-to-use)
+- [Contributing](#contributing)
+- [Contact](#contact)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [Changelog](#changelog)
+
+## Introduction
+
+This repository aims to compile solutions for the exercises in Y. Daniel Liang's book. Each solution is written in Python and is intended to help students and enthusiasts understand and practice the concepts presented in the book.
+
+## Structure
+
+The repository is organized by chapters, with each chapter containing subdirectories for the exercises. The structure is as follows:
+
+```
+├── Chapter1
+│   ├── Exercise1.1.py
+│   ├── Exercise1.2.py
+│   └── ...
+├── Chapter2
+│   ├── Exercise2.1.py
+│   ├── Exercise2.2.py
+│   └── ...
+└── ...
+```
+
+## Requirements
+
+To run the scripts in this repository, you need to have Python installed. The recommended version is Python 3.6 or higher. You can download Python from the [official website](https://www.python.org/downloads/).
+
+## How to Use
+
+1. Clone the repository to your local machine:
+
+    ```sh
+    git clone https://github.com/dennismkaunda/daniel-liang-python-exercises.git
+    ```
+
+2. Navigate to the directory of the exercise you want to run:
+
+    ```sh
+    cd daniel-liang-python-exercises/Chapter1
+    ```
+
+3. Run the Python script:
+
+    ```sh
+    python Exercise1.1.py
+    ```
+
+Each script is self-contained and should run independently. Follow the comments and code within each script for specific instructions and explanations.
+
+## Contributing
+
+Contributions are welcome! If you have a solution that is more efficient or you find an error, feel free to fork the repository and submit a pull request.
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -am 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a new Pull Request.
+
+## Contact
+
+If you have any questions or suggestions, feel free to open an issue or contact me directly:
+
+- **Email**: [Email Me](mailto:mphatso.myprojects@gmail.com)
+- **GitHub**: [Dennis Kaunda](https://github.com/dennismkaunda)
+
+## License
+
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Acknowledgments
+
+- Thanks to [Y. Daniel Liang](https://yongdanielliang.github.io/) for the excellent book.
+- [Requests](https://pypi.org/project/requests/) library for HTTP requests.
+
+## Changelog
+
+### [1.0.0] - 2024-07-20
+
+- Initial release with solutions for Chapter 1 to Chapter 5 with a few Exercises undone/unfinished.
+

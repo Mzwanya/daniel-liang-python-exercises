@@ -1,0 +1,29 @@
+'''
+*5.25 (Demonstrate cancellation errors) A cancellation error occurs when you are
+manipulating a very large number with a very small number. The large number
+may cancel out the smaller number. For example, the result of 100000000.0 +
+0.000000001 is equal to 100000000.0. To avoid cancellation errors and obtain
+more accurate results, carefully select the order of computation. For example, in
+computing the following series, you will obtain more accurate results by
+computing from right to left rather than from left to right:
+1 + 1/2 + 1/3 + ... + 1/n
+
+Write a program that compares the results of the summation of the preceding
+series, computing both from left to right and from right to left with n = 50000.
+'''
+# From right to left summation
+n = 50_000
+summation_from_right = 1 / n
+while n > 1:
+    summation_from_right += 1 / (n - 1)
+    n -= 1
+
+# From Left to right summation
+n = 1
+summation_from_left = 1
+while n < 50_000:
+    summation_from_left += 1 / (n + 1)
+    n += 1
+
+print("summation from right to left", summation_from_right)
+print("summation from left to right", summation_from_left)
