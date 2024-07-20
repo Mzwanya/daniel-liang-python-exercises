@@ -32,7 +32,7 @@ The repository is organized by chapters, with each chapter containing subdirecto
 │   ├── Exercise2.2.py
 │   └── ...
 └── ...
-```
+
 
 ## Requirements
 
@@ -42,19 +42,19 @@ You need Git installed to clone the repository. To run the scripts in this repos
 
 1. Clone the repository to your local machine:
 
-    ```sh
+    ```
     git clone https://github.com/dennismkaunda/daniel-liang-python-exercises.git
     ```
 
 2. Navigate to the directory of the exercise you want to run:
 
-    ```sh
+    ```
     cd daniel-liang-python-exercises/Chapter1
     ```
 
 3. Run the Python script:
 
-    ```sh
+    ```
     python Exercise1.1.py
     ```
 
