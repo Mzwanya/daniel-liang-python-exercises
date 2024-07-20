@@ -39,7 +39,7 @@ The repository is organized by chapters, with each chapter containing subdirecto
 
 ## Requirements
 
-To run the scripts in this repository, you need to have Python installed. The recommended version is Python 3.6 or higher. You can download Python from the [official website](https://www.python.org/downloads/).
+You need Git installed to clone the repository. To run the scripts in this repository you need to have Python installed. The recommended version is Python 3.6 or higher. You can download Python from the [official website](https://www.python.org/downloads/).
 
 ## How to Use
 
@@ -87,11 +87,11 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 ## Acknowledgments
 
 - Thanks to [Y. Daniel Liang](https://yongdanielliang.github.io/) for the excellent book.
-- [Requests](https://pypi.org/project/requests/) library for HTTP requests.
 
-## Changelog
+## Disclaimer
 
-### [1.0.0] - 2024-07-20
 
-- Initial release with solutions for Chapter 1 to Chapter 5 with a few Exercises undone/unfinished.
+- The solutions provided in this repository are attempted answers to the exercises in Y. Daniel Liang's "Introduction to Programming Using Python". They are not official solutions and may not be perfect or optimal. These solutions are meant for reference and learning purposes only. Users are encouraged to attempt the exercises on their own before consulting these solutions. If you find any errors or have suggestions for improvement, please open an issue or submit a pull request.
+
+- Remember that the primary goal is to learn and understand the concepts. Simply copying these solutions without understanding the underlying principles will not contribute to your learning process.
 
