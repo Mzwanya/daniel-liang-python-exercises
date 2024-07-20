@@ -1,6 +1,6 @@
 
 ```markdown
-# Daniel Liang's Python Exercise Solutions
+# daniel-liang-python-exercises
 
 This repository contains Python scripts with attempted solutions to the exercises from the book **"Introduction to Programming Using Python"** by **Y. Daniel Liang**. The purpose of this repository is to provide a reference and learning resource for those studying the book and practicing Python programming.
 
@@ -15,7 +15,7 @@ This repository contains Python scripts with attempted solutions to the exercise
 - [Contact](#contact)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
-- [Changelog](#changelog)
+- [Disclaimer](#disclaimer)
 
 ## Introduction
 
