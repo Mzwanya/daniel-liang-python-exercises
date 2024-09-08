@@ -60,7 +60,7 @@ You need Git installed to clone the repository. To run the scripts in this repos
 
 Each script is self-contained and should run independently. Follow the comments and code within each script for specific instructions and explanations.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you have a solution that is more efficient or you find an error, feel free to fork the repository and submit a pull request.
 
@@ -77,7 +77,7 @@ If you have any questions or suggestions, feel free to open an issue or contact 
 - **Email**: [Email Me](mailto:solutionistdennis@gmail.com)
 - **GitHub**: [Dennis Kaunda](https://github.com/dennismkaunda)
 
-## ⚖️ License
+## License
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
@@ -85,7 +85,7 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 
 - Thanks to [Y. Daniel Liang](https://yongdanielliang.github.io/) for the excellent book.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 
 - The solutions provided in this repository are attempted answers to the exercises in Y. Daniel Liang's "Introduction to Programming Using Python". They are not official solutions and may not be perfect or optimal. These solutions are meant for reference and learning purposes only. Users are encouraged to attempt the exercises on their own before consulting these solutions. If you find any errors or have suggestions for improvement, please open an issue or submit a pull request.
