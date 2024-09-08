@@ -2,12 +2,12 @@
 
 import turtle
 
-#first Triangle
+# First Triangle
 turtle.goto(-200, 200)
 turtle.goto(200, 200)
 turtle.goto(0, 0)
 
-#second Triangle
+# Second Triangle
 turtle.goto(200, -200)
 turtle.goto(-200, -200)
 turtle.goto(0, 0)

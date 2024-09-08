@@ -1,6 +1,4 @@
-# A program to estimate Population projection in a five year period
-
-# TO BE RECHECKED
+# A program to estimate population projection in a five year period
 
 current_population = 312032486
 one_birth_per_seconds = 7
@@ -28,18 +26,8 @@ current_population = year_four_population
 
 year_five_population = current_population + change_in_population
 
-print("Fisrt_year_population :", year_one_population)
+print("First_year_population :", year_one_population)
 print("Second_year_population:", year_two_population)
 print("Third_year_population:", year_three_population)
 print("Fourth_year_population:", year_four_population)
 print("Fifth_year_population:", year_five_population)
-
-'''
-previous results
-Fisrt_year_population : 314812582
-Second_year_population: 317592678
-Third_year_population: 320372774
-Fourth_year_population: 323152870
-Fifth_year_population: 325932966
-
-'''

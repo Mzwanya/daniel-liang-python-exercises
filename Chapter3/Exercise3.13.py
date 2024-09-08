@@ -1,7 +1,4 @@
-'''
-*3.13 (Turtle: display a STOP sign) Write a program that displays a STOP sign, as
-shown in Figure 3.5b. The hexagon is in red and the text is in white.
-'''
+# Turtle: display a STOP sign
 
 import turtle
 
@@ -13,7 +10,7 @@ turtle.end_fill()
 turtle.begin_fill()
 turtle.goto(-50, 80)
 turtle.color("white")
-turtle.write("STOP", font = ("Times", 30, "bold"))
+turtle.write("STOP", font = ("Arial", 30, "normal"))
 turtle.end_fill()
 
 turtle.hideturtle()

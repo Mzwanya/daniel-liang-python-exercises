@@ -1,9 +1,5 @@
-'''
-**3.16 (Turtle: draw shapes) Write a program that draws a triangle, square, pentagon,
-hexagon, and octagon, as shown in Figure 3.6b. Note that the bottom edges of
-these shapes are parallel to the x-axis. (Hint: For a triangle with a bottom line
-parallel to the x-axis, set the turtle’s heading to 60 degrees.)
-'''
+# Turtle: draw shapes
+
 import turtle
 
 turtle.hideturtle()
@@ -51,4 +47,3 @@ turtle.pendown()
 turtle.circle(radius, steps=7)
 
 turtle.done()
-

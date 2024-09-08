@@ -1,7 +1,5 @@
-'''
-*3.15 (Turtle: paint a smiley face) Write a program that paints a smiley face, as shown in
-Figure 3.6a
-'''
+# Turtle: paint a smiley face
+
 import turtle
 
 turtle.pensize(3)

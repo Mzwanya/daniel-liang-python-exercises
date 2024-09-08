@@ -1,16 +1,14 @@
-'''
-(Turtle: display a rectanguloid) Write a program that displays a rectanguloid, as
-shown in Figure 1.20b
-'''
+# Turtle: display a rectanguloid
+
 import turtle
 
-# first rectangle with center at (0, 0)
+# First rectangle with center at (0, 0)
 turtle.goto(300, 0)
 turtle.goto(300, 100)
 turtle.goto(0, 100)
 turtle.goto(0, 0)
 
-# second rectangle with center at (50, 50)
+# Second rectangle with center at (50, 50)
 turtle.penup()
 turtle.goto(50, 50)
 turtle.pendown()

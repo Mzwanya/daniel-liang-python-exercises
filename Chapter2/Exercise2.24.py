@@ -1,31 +1,89 @@
-# (Turtle: draw four hexagons) Write a program that draws four hexagons in the center of the screen
+# Draw four hexagons
+
 import turtle
 
-# first part
+# First hexagon
 turtle.right(90)
-for i in range(6):
-    turtle.right(60)
-    turtle.forward(100)
 turtle.right(60)
-turtle.forward(200)
+turtle.forward(100)
 
-for i in range(5):
-    turtle.left(60)
-    turtle.forward(100)
+turtle.right(60)
+turtle.forward(100)
 
-# Second part
+turtle.right(60)
+turtle.forward(100)
+
+turtle.right(60)
+turtle.forward(100)
+
+turtle.right(60)
+turtle.forward(100)
+
+turtle.right(60)
+turtle.forward(100)
+
+turtle.right(60)
+turtle.forward(100)
+
+# Second hexagon
+turtle.forward(100)
+turtle.left(60)
+turtle.forward(100)
+
+turtle.left(60)
+turtle.forward(100)
+
+turtle.left(60)
+turtle.forward(100)
+
+turtle.left(60)
+turtle.forward(100)
+
+turtle.left(60)
+turtle.forward(100)
+
+# Third hexagon
 turtle.right(60)
 turtle.penup()
 turtle.goto(20, -100)
 turtle.pendown()
-for i in range(6):
-    turtle.right(60)
-    turtle.forward(100)
+
+turtle.right(60)
+turtle.forward(100)
+
+turtle.right(60)
+turtle.forward(100)
+
+turtle.right(60)
+turtle.forward(100)
+
+turtle.right(60)
+turtle.forward(100)
+
+turtle.right(60)
+turtle.forward(100)
+
+turtle.right(60)
+turtle.forward(100)
+
+# Fourth hexagon
 turtle.right(60)
 turtle.forward(200)
 
-for i in range(5):
-    turtle.left(60)
-    turtle.forward(100)
+turtle.left(60)
+turtle.forward(100)
 
-turtle.done()
+turtle.left(60)
+turtle.forward(100)
+
+turtle.left(60)
+turtle.forward(100)
+
+turtle.left(60)
+turtle.forward(100)
+
+turtle.left(60)
+turtle.forward(100)
+
+turtle.hideturtle() # hide the turtle pen
+turtle.done() # pause the turtle window

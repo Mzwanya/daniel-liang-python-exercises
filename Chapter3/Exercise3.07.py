@@ -2,8 +2,7 @@ import  time
 
 time = int(time.time())
 
-ascii_code = time % 100 + 65
+ASCII_CODE = ord('A') + time % (ord('Z') - ord('A') + 1)
+character = chr(ASCII_CODE)
 
-character = chr(ascii_code)
-
-print("The character of code", ascii_code, "is ", character.upper())
+print("The character of code", ASCII_CODE, "is ", character.upper())

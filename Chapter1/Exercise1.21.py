@@ -1,7 +1,3 @@
-'''
-*1.21 (Turtle: display a clock) Write a program that displays a clock to show the time
-9:15:00, as shown in Figure 1.20c
-'''
 import turtle
 
 # Displaying 9:15:00 under the clock
@@ -44,7 +40,7 @@ turtle.goto(0, 0)
 turtle.pendown()
 turtle.forward(120)
 
-# Drawig the hour-hand on the clock
+# Drawing the hour-hand on the clock
 turtle.penup()
 turtle.right(90)
 turtle.goto(0, 0)

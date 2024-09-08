@@ -1,10 +1,10 @@
-'''
-(Convert feet into meters) Write a program that reads a number in feet, converts it
-to meters, and displays the result. One foot is 0.305 meters.
-'''
-feets = eval(input("Enter a value for feet: "))
+# Convert feet into meters
 
-meters = feets * 0.305
+# Prompting the user to input a value in feets
+feet = eval(input("Enter a value for feet: "))
 
-print(feets, "feet is", int(meters * 10000) / 1000.0, "meters.")
+# Converting the value in feets into meters
+meters = feet * 0.305
 
+# Display the results
+print(feet, "feet is", int(meters * 10000) / 1000.0, "meters.")

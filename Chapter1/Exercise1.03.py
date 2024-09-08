@@ -1,4 +1,4 @@
-# Aprogram to Display a pattern
+# A program to display a pattern
 
 print("FFFFFFF  U     U  NN      NN")
 print("FF       U     U  NNN     NN")

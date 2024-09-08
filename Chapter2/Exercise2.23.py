@@ -1,7 +1,8 @@
-# (Turtle: draw four circles) Write a program that prompts the user to enter the radius and draws four circles in the center of the screen
+# Draw four circles
 
 import turtle
 
+# Prompt the user to input the radius of the circle
 radius = eval(input("Enter the radius of the circle: "))
 
 # Drawing Circle 1

@@ -22,5 +22,4 @@ turtle.goto(-200, 0)
 turtle.pendown()
 turtle.goto(200,0)
 
-
 turtle.done()

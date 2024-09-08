@@ -1,16 +1,18 @@
-'''
-**2.26 (Turtle: draw a circle) Write a program that prompts the user to enter the
-center and radius of a circle, and then displays the circle and its area, as shown
-in Figure 2.5
-'''
+# Draw a circle and display it's area
+
 import turtle
 
+# Prompt the user to enter the center and radius of a circle
 x, y = eval(input("Enter the cordinates of the Center of the Circle (x, y): "))
 radius = eval(input("Enter the radius of the Circle: "))
+PI = 3.14158 # Constant pi
 
+# Compute area of the circle
+area = radius * radius * PI
+
+# Draw the circle and display its area at the center
 turtle.penup()
 turtle.goto(x, y)
-area = radius * radius * 3.14158
 turtle.write(area)
 turtle.goto(x, y - radius)
 turtle.pendown()

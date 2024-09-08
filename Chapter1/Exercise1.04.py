@@ -1,4 +1,4 @@
- # A program to Display a pattern
+ # A program to display a pattern
 
 print("a   a^2   a^3")
 print("1   1     1")
