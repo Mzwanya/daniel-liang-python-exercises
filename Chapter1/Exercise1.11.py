@@ -26,8 +26,8 @@ current_population = year_four_population
 
 year_five_population = current_population + change_in_population
 
-print("First_year_population :", year_one_population)
-print("Second_year_population:", year_two_population)
-print("Third_year_population:", year_three_population)
-print("Fourth_year_population:", year_four_population)
-print("Fifth_year_population:", year_five_population)
+print("First year population :", year_one_population)
+print("Second year population:", year_two_population)
+print("Third year population:", year_three_population)
+print("Fourth year population:", year_four_population)
+print("Fifth year population:", year_five_population)
