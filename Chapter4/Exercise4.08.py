@@ -1,12 +1,11 @@
-'''
-*4.8 (Sort three integers) Write a program that prompts the user to enter three integers
-and displays them in increasing order.
-'''
+# Sort three integers
 
+# Prompt the user to enter three integers
 number1 = int(input("Enter an integer: "))
 number2 = int(input("Enter another integer: "))
 number3 = int(input("Enter another integer: "))
 
+# Display the integers in increasing order
 if number1 >= number2 and number1 >= number3:
     if number2 >= number3:
         print(str(number1) + ',' + str(number2) + ',' + str(number3))

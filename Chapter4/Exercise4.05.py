@@ -1,12 +1,9 @@
-'''
-*4.5 (Find future dates) Write a program that prompts the user to enter an integer for
-today’s day of the week (Sunday is 0, Monday is 1, ..., and Saturday is 6). Also
-prompt the user to enter the number of days after today for a future day and display the future day of the week.
-'''
-# prompts the user to enter an integer for today’s day of the week
+# Find future dates
+
+# Prompt the user to enter an integer for today’s day of the week
 todays_day_number = int(input("Enter today's day: "))
 
-# Determine the day ie Sunday is 0, Monday is 1, ..., and Saturday is 6
+# Determine the day i.e. Sunday is 0, Monday is 1, ..., and Saturday is 6
 todays_day = ''
 if todays_day_number == 0:
     todays_day = 'Sunday'
@@ -28,7 +25,7 @@ else:
 if todays_day == 'invalid input':
     print("Enter a valid day integer between 0 and 6")
 else:
-    # prompt the user to enter the number of days after today for a future day
+    # Prompt the user to enter the number of days after today for a future day
     number_of_days_elapsed = int(input("Enter the number of days elapsed since today: "))
     future_day = (todays_day_number + number_of_days_elapsed) % 7
     day = ''

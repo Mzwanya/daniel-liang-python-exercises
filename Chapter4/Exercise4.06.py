@@ -1,8 +1,5 @@
-'''
-*4.6 (Health application: BMI) Revise Listing 4.6, ComputeBMI.py, to let users enter
-their weight in pounds and their height in feet and inches. For example, if a person
-is 5 feet and 10 inches, you will enter 5 for feet and 10 for inches.
-'''
+# Health application: BMI
+
 import math
 
 # Prompt the user to enter weight in pounds
@@ -17,10 +14,12 @@ KILOGRAMS_PER_POUND = 0.45359237 # Constant
 METERS_PER_INCH = 0.0254         # Constant
 METERS_PER_FEET = 0.3048         # Constant
 
-# Compute BMI
+# Compute weight in kilograms and height in meters
 weightInKilograms = weight * KILOGRAMS_PER_POUND
 heightInMeters = height_in_inches * METERS_PER_INCH + height_in_feet * METERS_PER_FEET
-bmi = weightInKilograms / (heightInMeters * heightInMeters)
+
+# Compute BMI
+bmi = weightInKilograms / (heightInMeters ** 2)
 
 # Display result
 print("BMI is", format(bmi, ".2f"))

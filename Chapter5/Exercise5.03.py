@@ -1,7 +1,4 @@
-'''
-5.3 (Conversion from kilograms to pounds) Write a program that displays the following table
-(note that 1 kilogram is 2.2 pounds)
-'''
+
 count = 0
 kilogram = 1
 pound = 0

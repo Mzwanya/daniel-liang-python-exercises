@@ -1,8 +1,4 @@
-'''
-*4.13 (Financial application: compute taxes) Listing 4.7, ComputeTax.py, gives the
-source code to compute taxes for single filers. Complete Listing 4.7 to give the
-complete source code for the other filing statuses.
-'''
+# Financial application: compute taxes
 import sys
 
 # Prompt the user to enter filing status

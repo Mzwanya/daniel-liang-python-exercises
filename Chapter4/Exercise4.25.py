@@ -21,4 +21,4 @@ if (a * d - b * c) == 0:
 else:
     x = (e * d - b * f) / (a * d - b * c)        # Cramer's Rule
     y = (a * f - e * c) / (a * d - b * c)        # Cramer's Rule
-    print(f"The intersecting point is {x, y}")
+    print(f"The intersecting point is {(x, y)}")
