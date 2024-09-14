@@ -74,7 +74,7 @@ Contributions are welcome! If you have a solution that is more efficient or you 
 
 If you have any questions or suggestions, feel free to open an issue or contact me directly:
 
-- **Email**: [Email Me](mailto:solutionistdennis@gmail.com)
+- **Email**: [solutionistdennis@gmail.com](mailto:solutionistdennis@gmail.com)
 - **GitHub**: [Dennis Kaunda](https://github.com/dennismkaunda)
 
 ## License
