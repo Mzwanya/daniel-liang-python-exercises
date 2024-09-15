@@ -1,10 +1,3 @@
-'''
-**5.24 (Financial application: loan amortization schedule) The monthly payment for a
-given loan pays the principal and the interest. The monthly interest is computed by
-multiplying the monthly interest rate and the balance (the remaining principal).
-The principal paid for the month is therefore the monthly payment minus the
-monthly interest. Write a program that , and then 
-'''
 # Prompt the user enter the loan amount, number of years, and interest rate
 loan_amount = eval(input("Loan amount: "))
 number_of_years = eval(input("Number of years: "))

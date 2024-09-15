@@ -1,5 +1,5 @@
 number = 0
-while number * number * number < 12_000:
+while number ** 3 < 12_000:
     number += 1
-    if number * number * number > 12_000:
+    if number ** 3 > 12_000:
         print("The integer is", number - 1)
