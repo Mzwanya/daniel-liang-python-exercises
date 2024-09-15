@@ -1,8 +1,3 @@
-'''
-5.2 (Repeat additions) Listing 5.4, SubtractionQuizLoop.py, generates five random
-subtraction questions. Revise the program to generate ten random addition questions for
-two integers between 1 and 15. Display the correct count
-'''
 import  random
 import  time
 

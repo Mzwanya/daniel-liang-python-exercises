@@ -1,13 +1,8 @@
-''' *5.17 (Display the ASCII character table) Write a program that displays the characters
-in the ASCII character table from ! to ~. Display ten characters per line.
-The characters are separated by exactly one space
-'''
-
-ASCII_CODE = 33
+ASCII_CODE = ord('!')
 count_per_line = 1
 limit = 10
 print("The characters in the ASCII character table are: ")
-while ASCII_CODE <= 126:
+while ASCII_CODE <= ord('~'):
     print(str(chr(ASCII_CODE)), end=' ')
     if count_per_line % limit == 0:
         print()

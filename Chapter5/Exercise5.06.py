@@ -1,8 +1,3 @@
-'''
-*5.6 (Conversion from miles to kilometers and kilometers to miles) Write a program
-that displays the following two tables side by side
-(note that 1 mile is 1.609 kilometers and that 1 kilometer is .621 mile):
-'''
 count = 0
 mile1 = 1
 kilometer1 = 0
@@ -16,4 +11,3 @@ while count < 10:
     kilometer2 += 5
     mile1 += 1
     count += 1
-

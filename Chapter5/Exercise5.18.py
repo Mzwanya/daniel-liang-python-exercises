@@ -1,15 +1,11 @@
-'''
-**5.18 (Find the factors of an integer) Write a program that reads an integer and displays
-all its smallest factors, also known as prime factors.
-For example, if the input integer is 120, the output should be as follows:
-2, 2, 2, 3, 5
-'''
+# A program that reads a positive integer and displays all its smallest factors (prime factors)
+
 import sys
 
-print("A program that reads a positive integer and displays all its smallest factors (prime factors)")
+# Prompt the user to enter an integer
 integer = int(input("Enter an integer: "))
 number = 2
-quotient = -1
+
 # Check if the input is valid
 if integer == 1 or integer == 0:
     print(f"{integer} has no factor")
@@ -39,16 +35,3 @@ while integer != 1:
             print(str(number))
     else:
         number += 1
-
-'''
-# OR
-# lines 25 to 30 can be replaced with:
-        if quotient != 1:
-            print(str(number) + ' *', end=' ')
-        elif number == origin:
-            print("No other factors, the factor is itself,", number)
-        else:
-            print(str(number) + ' = ' + str(user_input_original_integer))
-    else:
-        number+= 1
-'''

@@ -1,9 +1,3 @@
-'''
-*5.22 (Display prime numbers between 2 and 1,000) Modify Listing 5.13 to display all
-the prime numbers between 2 and 1,000, inclusive. Display eight prime numbers
-per line.
-'''
-
 NUMBER_OF_PRIMES_PER_LINE = 8 # Display 10 per line
 count = 0 # Count the number of prime numbers
 number = 2 # A number to be tested for primeness

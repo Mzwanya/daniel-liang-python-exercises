@@ -1,9 +1,3 @@
-'''
-*5.5 (Conversion from kilograms to pounds and pounds to kilograms) Write a program
-that displays the following two tables side by side (note that 1 kilogram is 2.2
-pounds and that 1 pound is 0.45 kilograms):
-'''
-
 count = 0
 kilogram1 = 1
 pound1 = 0
@@ -17,4 +11,3 @@ while count < 100:
     kilogram1 += 2
     pound2 += 5
     count += 1
-

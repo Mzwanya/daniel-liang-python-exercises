@@ -15,6 +15,7 @@ for i in range(number_of_lines + 1):
         print(j, end=' ')
     count += 1
     print()
+print("\n")
 
 # Pattern B
 
@@ -25,6 +26,7 @@ for m in range(number_of_lines + 1):
         print(n, end=' ')
     count -= 1
     print()
+print("\n")
 # Pattern C
 
 print("Pattern C:")
@@ -38,9 +40,9 @@ for h in range(number_of_lines + 1):
     spaces -= 2
     number_of_lines -= 1
     print()
-print('\n')
+print("\n")
 # Pattern D
-print()
+
 print("Pattern D:")
 count = 6
 for x in range(number_of_lines + 1):

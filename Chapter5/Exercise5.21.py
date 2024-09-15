@@ -1,21 +1,14 @@
-# TO BE CONTINUED...
-
 
 limit = 9
-count = 0
-power = count
-spaces = limit * 3
-for i in range(limit):
-    print('  ' * spaces, end='  ')
-    for k in range(0, count):
-        print(2 ** k, end='   ')
-    power = count - 2
-    for m in range(1, count):
-        print(2 ** power, end='   ')
-        power -= 1
-    if i <= 4:
-        spaces -= 2
-    else:
-        spaces -= 3
+x = limit * 2
+for i in range(1, limit):
+    s = limit + x
+    sp = str(s) + "s"
+    print(format(" ", sp), end='')
+    for j in range(0, i-1):
+        print(format(2**j,"3d"), end='')
+
+    for j in range(i-1,-1,-1):
+        print(format(2 ** j, "3d"), end='')
     print()
-    count += 1
+    x-=3

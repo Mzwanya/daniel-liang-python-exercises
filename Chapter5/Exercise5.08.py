@@ -1,7 +1,3 @@
-'''
-5.8 (Use the math.sqrt function) Write a program that prints the following table
-using the sqrt function in the math module
-'''
 import math
 
 number = 0
