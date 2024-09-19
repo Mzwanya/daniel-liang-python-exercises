@@ -1,13 +1,6 @@
-# *5.20 (Display four patterns using loops) Use nested loops that display the following
-# patterns in four separate programs:
-
 number_of_lines = 6
 
-# NOTE: Run each of this program in pieces (Pattern A, B, C, D) seperately. You can use block comments (''' ''')
-# Otherwise if you run them all at once pattern D wont be printed out.
-
 # Pattern A
-
 count = 1
 print("Pattern A:")
 for i in range(number_of_lines + 1):
@@ -18,7 +11,6 @@ for i in range(number_of_lines + 1):
 print("\n")
 
 # Pattern B
-
 print("Pattern B:")
 count = 6
 for m in range(number_of_lines + 1):
@@ -27,8 +19,8 @@ for m in range(number_of_lines + 1):
     count -= 1
     print()
 print("\n")
-# Pattern C
 
+# Pattern C
 print("Pattern C:")
 count = 1
 spaces = 12
@@ -41,8 +33,11 @@ for h in range(number_of_lines + 1):
     number_of_lines -= 1
     print()
 print("\n")
-# Pattern D
 
+# Reset number_of_lines to ensure correct output for Pattern D
+number_of_lines = 6
+
+# Pattern D
 print("Pattern D:")
 count = 6
 for x in range(number_of_lines + 1):
