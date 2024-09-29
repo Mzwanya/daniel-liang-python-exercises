@@ -43,7 +43,7 @@ You need Git installed to clone the repository. To run the scripts in this repos
 1. Clone the repository to your local machine:
 
     ```
-    git clone https://github.com/Yazest/daniel-liang-python-exercises.git
+    git clone https://github.com/Mzwanya/daniel-liang-python-exercises.git
     ```
 
 2. Navigate to the directory of the exercise you want to run:
