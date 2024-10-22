@@ -7,6 +7,5 @@ def sumDigits(n):
 
     return sum
 
-
 n = eval(input("Enter an integer: "))
 print("The sum of the digits is", sumDigits(n))

@@ -2,7 +2,6 @@ def get_pentagonal_number(n):
     number = n * (3 * n - 1) / 2
     return int(number)
 
-
 def main():
     count = 1
     for i in range(1, 101):
@@ -12,6 +11,5 @@ def main():
             count = 0
 
         count += 1
-
 
 main()

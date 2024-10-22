@@ -7,6 +7,5 @@ def reverse(number):
 
     return num
 
-
 num = eval(input("Enter a number: "))
 print("The reverse of", num, "is", reverse(num))

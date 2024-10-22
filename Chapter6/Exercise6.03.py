@@ -7,7 +7,6 @@ def reverse(number):
 
     return int(num)
 
-
 # Return true if number is a palindrome
 def isPalindrome(number):
     revNumber = reverse(number)

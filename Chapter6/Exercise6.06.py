@@ -6,6 +6,5 @@ def displayPattern(n):
             print(format(j, "2d"), end=" ")
         print()
 
-
 n = eval(input("Enter an integer: "))
 displayPattern(n)

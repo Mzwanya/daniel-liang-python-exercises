@@ -13,6 +13,5 @@ def displaySortedNumbers(num1, num2, num3):
 
     print("The sorted numbers are", max3, max2, max1)
 
-
 n1, n2, n3 = eval(input("Enter three numbers: "))
 displaySortedNumbers(n1, n2, n3)
